@@ -18,7 +18,7 @@ const SideNav = ({ toggleList, activeList, toggleTranslation, activeTranslation 
                 },
                 {
                     name: "Translator",
-                    path: "/",
+                    path: "/lists/translator",
                 }
             ]
         },

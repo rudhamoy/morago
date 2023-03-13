@@ -1,7 +1,7 @@
 {
-  "homepage": "https://rudhamoy.github.io/morago",
-  "name": "morago",
+  "name": "morago_dash_admin",
   "version": "0.1.0",
+  "homepage": "https://rudhamoy.github.io/morago",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.7.4",
