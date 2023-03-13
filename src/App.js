@@ -1,6 +1,6 @@
 import './App.css';
 // import 'antd/dist/antd.css'
-import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, createHashRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 
 import Layout from './components/layout';
 import Translator from './pages/lists/translator/Translator'
@@ -30,7 +30,7 @@ import HomePage from './pages/HomePage';
 
 function App() {
 
-  const router = createBrowserRouter(
+  const router = createHashRouter(
     createRoutesFromElements(
       <>
         <Route path="/" element={<ProtectedRoutes />}>
