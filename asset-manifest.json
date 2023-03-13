@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/morago/static/css/main.21e74cee.css",
-    "main.js": "/morago/static/js/main.47d3ac84.js",
-    "static/js/787.08ff67c4.chunk.js": "/morago/static/js/787.08ff67c4.chunk.js",
+    "main.js": "/morago/static/js/main.81b45c2b.js",
+    "static/js/787.88e2b97d.chunk.js": "/morago/static/js/787.88e2b97d.chunk.js",
     "static/media/translator.png": "/morago/static/media/translator.bfde9b2093ec4a0e1c73.png",
     "static/media/userProfile.png": "/morago/static/media/userProfile.ac14edbf78553da7ea43.png",
     "static/media/svgLogo.svg": "/morago/static/media/svgLogo.accb36d8998ae8887cc10b6f9b54e8c0.svg",
     "index.html": "/morago/index.html",
     "main.21e74cee.css.map": "/morago/static/css/main.21e74cee.css.map",
-    "main.47d3ac84.js.map": "/morago/static/js/main.47d3ac84.js.map",
-    "787.08ff67c4.chunk.js.map": "/morago/static/js/787.08ff67c4.chunk.js.map"
+    "main.81b45c2b.js.map": "/morago/static/js/main.81b45c2b.js.map",
+    "787.88e2b97d.chunk.js.map": "/morago/static/js/787.88e2b97d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.21e74cee.css",
-    "static/js/main.47d3ac84.js"
+    "static/js/main.81b45c2b.js"
   ]
 }
