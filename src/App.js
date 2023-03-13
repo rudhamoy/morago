@@ -25,8 +25,6 @@ import ChangePassword from './pages/auth/ChangePassword';
 import { editCategoryLoader } from './pages/translationTopics/categories/EditCategory';
 import EditTranslator, { editTranslatorLoader } from './pages/lists/translator/EditTranslator';
 import EditUser, { editUserLoader } from './pages/lists/user/EditUser';
-import HomePage from './pages/HomePage';
-
 
 function App() {
 
@@ -36,8 +34,7 @@ function App() {
         <Route path="/" element={<ProtectedRoutes />}>
           <Route path="/" element={<Layout />}>
             {/* translator */}
-            <Route path="/" element={<HomePage />} />
-            <Route path="/lists/translator" element={<Translator />} />
+            <Route index element={<Translator />} />
             <Route 
             path="/lists/translator/add_translator" 
             loader={addTranslatorLoader}
